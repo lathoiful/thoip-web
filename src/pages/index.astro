@@ -1,0 +1,25 @@
+---
+import Footer from '../components/Footer.astro';
+import Header from '../components/Header.astro';
+import Hero from '../components/Hero.astro';
+import Projects from '../components/Projects.astro';
+import Tambahan from '../components/Tambahan.astro';
+import Trust from '../components/Trust.astro';
+import Layout from '../layouts/Layout.astro';
+---
+
+<Layout>
+	<Header />
+
+    <!-- MAIN CONTENT -->
+    <main class="w-full pt-16 bg-slate-50 min-h-screen">
+        <div class="flex flex-col w-full text-slate-900">
+            <Hero />
+			<Trust />
+			<Projects />
+			<Tambahan />
+        </div>
+    </main>
+	<Footer />
+
+</Layout>
